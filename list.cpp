@@ -37,7 +37,7 @@ void DeleteList(Node* head) {
 	}
 }
 
-//Óäàëåíèå îòğèöàòåëüíûõ ÷èñåë
+//Ã“Ã¤Å•Ã«ÄºÃ­ÄÄº Ã®ÅˆÄ‘ÄÃ¶Å•ÅˆÄºÃ«Ã¼Ã­Å±Å‘ Ã·ÄÅ„ÄºÃ«
 
 void DeleteOtric(Node* &head) {
 	while (head != nullptr && head->Data < 0) {
@@ -62,7 +62,7 @@ void DeleteOtric(Node* &head) {
 	}
 }
 
-//ïåğåìåùåíèå ãîëîâû â êîíåö 
+//ÄÄºÄ‘ÄºÄ›ÄºÅ¯ÄºÃ­ÄÄº ÄƒÃ®Ã«Ã®Ã¢Å± Ã¢ Ä™Ã®Ã­ÄºÃ¶ 
 
 void Peremesheniye(Node*& head) {
 	Node* tmp = head;
